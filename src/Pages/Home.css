@@ -1,0 +1,28 @@
+.homeContainer {
+  max-width: 90% !important;
+}
+.homeBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.textArya {
+  width: 50%;
+  border: 1px solid green;
+  /* height: 70%; */
+  padding: 50px 0px 0px 5px;
+}
+
+.AvatarPhoto {
+  width: 50%;
+  border: 1px solid green;
+  height: 70%;
+}
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+}
+.ButtonMargin {
+  margin-bottom: 50px;
+}

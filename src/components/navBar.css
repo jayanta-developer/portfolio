@@ -1,15 +1,22 @@
 .navContainer {
   width: 100%;
-  border: 1px solid rgb(188, 190, 28);
+  /* border: 1px solid rgb(188, 190, 28); */
+  display: flex;
+  justify-content: center;
+  height: 56px;
 }
 .navBar {
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   border: 1px solid green;
+  border-radius: 16px;
+  align-items: center;
 }
 .menuItems {
+  width: 50%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
