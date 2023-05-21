@@ -1,0 +1,15 @@
+.navContainer {
+  width: 100%;
+  border: 1px solid rgb(188, 190, 28);
+}
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid green;
+}
+.menuItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
