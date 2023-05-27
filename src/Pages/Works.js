@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import project1 from "../Assets/Images/Screenshot 2023-05-27 163338.png";
 import project2 from "../Assets/Images/Screenshot 2023-05-27 172201.png";
 import "./Works.css";
+
 export default function Works() {
   return (
     <Container
@@ -11,7 +12,9 @@ export default function Works() {
       sx={{ marginTop: "80px", maxWidth: "90%" }}
     >
       <Box className="headerBox">
-        <Typography variant="h3">My Works</Typography>
+        <section id="MyWorks">
+          <Typography variant="h3">My Works</Typography>
+        </section>
       </Box>
       <Box className="SubHeaderBox">
         <Typography variant="h6">
@@ -27,6 +30,7 @@ export default function Works() {
             <Link
               className="projectItemLink"
               to={"https://github.com/jayanta-developer"}
+              target="_blank"
             >
               <Typography className="projectLinkText" variant="h6">
                 Go to GitHub
@@ -35,6 +39,7 @@ export default function Works() {
             <Link
               className="projectItemLink"
               to={"https://github.com/jayanta-developer"}
+              target="_blank"
             >
               <Typography className="projectLinkText" variant="h6">
                 Live preview
@@ -51,6 +56,7 @@ export default function Works() {
             <Link
               className="projectItemLink"
               to={"https://github.com/jayanta-developer"}
+              target="_blank"
             >
               <Typography className="projectLinkText" variant="h6">
                 Go to GitHub
@@ -58,7 +64,8 @@ export default function Works() {
             </Link>
             <Link
               className="projectItemLink"
-              to={"https://github.com/jayanta-developer"}
+              to={"https://jandjteams.com/wordpress/hevin/dark-home/"}
+              target="_blank"
             >
               <Typography className="projectLinkText" variant="h6">
                 Live preview

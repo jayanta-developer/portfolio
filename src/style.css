@@ -1,8 +1,14 @@
 * {
   box-sizing: border-box;
   background-color: rgb(118, 255, 139, 8%);
+  font-family: sans-serif;
 }
 html {
   background-color: rgb(118, 255, 139, 11%);
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
 }

@@ -4,16 +4,43 @@
   display: flex;
   justify-content: center;
   height: 56px;
+  transition: top 0.9s;
 }
+.navbar-fixed {
+  position: fixed;
+  top: 6px;
+  width: 100%;
+  /* border: 1px solid rgb(188, 190, 28); */
+  display: flex;
+  justify-content: center;
+  height: 56px;
+  transition: top 0.9s;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 10px;
+}
+
 .navBar {
   width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /* border: 1px solid green; */
+  border: 2px solid #03df03;
   border-radius: 16px;
   align-items: center;
-  background-color: rgb(155, 249, 12, 48%);
+  background-color: rgb(118 255 139 / 74%);
+  /* background-color: rgb(155, 249, 12, 48%); */
 }
 .menuItems {
   width: 50%;
@@ -23,4 +50,20 @@
 }
 .logo {
   width: 34%;
+}
+.NavBarItemLink {
+  color: #000000bd;
+  font-weight: 600;
+  font-size: 19px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.contactMe {
+  color: #509b4f;
+  cursor: pointer;
+}
+.NavButtonBox {
+  border: 2px solid #0ca10cb8;
+  border-radius: 21px;
+  padding: 0px 7px 0px 7px;
 }

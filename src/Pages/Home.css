@@ -23,8 +23,16 @@
   display: flex;
   flex-direction: row;
 }
+.DownloadCVBtn {
+  border: 3px solid #08f108;
+  border-radius: 21px;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none;
+  color: #509b4f;
+  font-weight: 600;
+}
 .DownloadBtn {
-  padding: 0px 10px 0px 0px;
+  padding: 11px 10px 0px 0px;
 }
 .WorkBtn {
   padding: 0px 0px 0px 0px;
