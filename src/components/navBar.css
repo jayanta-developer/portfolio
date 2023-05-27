@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   height: 56px;
-  transition: top 0.9s;
 }
 .navbar-fixed {
   position: fixed;
@@ -14,7 +13,6 @@
   display: flex;
   justify-content: center;
   height: 56px;
-  transition: top 0.9s;
 }
 
 .logo {

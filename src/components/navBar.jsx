@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button } from '@mui/material';
-import "./navBar.css"
+import "./NavBar.css"
 
 export default function NavBar() {
   const [isNavbarFixed, setIsNavbarFixed] = useState(true);
