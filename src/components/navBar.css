@@ -10,13 +10,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   border-radius: 16px;
   align-items: center;
+  background-color: rgb(155, 249, 12, 48%);
 }
 .menuItems {
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.logo {
+  width: 34%;
 }

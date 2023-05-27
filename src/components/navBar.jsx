@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 
 import "./navBar.css"
 
@@ -18,7 +18,9 @@ export default function NavBar() {
           <Box className="menuItem">menu2</Box>
           <Box className="menuItem">menu3</Box>
         </Box>
-        <Box className="button">button</Box>
+        <Box className="buttonBox">
+          <Button>DOWNLOAD CV</Button>
+        </Box>
       </Box>
     </Box>
   )
