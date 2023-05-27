@@ -1,0 +1,36 @@
+.workContainer {
+  max-width: 90% !important;
+  padding: 30px;
+}
+.headerBox {
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+}
+.SubHeaderBox {
+  width: 100%;
+  text-align: center;
+}
+.projectBox {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.projectItems {
+  border: 3px solid #d8a825;
+}
+.coverPhoto {
+  width: 300px;
+  height: 96px;
+}
+.projectItemLink {
+  text-decoration: none;
+  color: black !important;
+  width: 100%;
+  text-align: center;
+}
+.projectLinkText {
+  border: 1px solid red;
+}

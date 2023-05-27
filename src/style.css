@@ -1,4 +1,8 @@
 * {
   box-sizing: border-box;
-  background-color: rgb(118, 255, 139, 7%);
+  background-color: rgb(118, 255, 139, 8%);
+}
+html {
+  background-color: rgb(118, 255, 139, 11%);
+  box-sizing: border-box;
 }

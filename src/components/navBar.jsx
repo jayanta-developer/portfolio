@@ -9,7 +9,7 @@ export default function NavBar() {
     <Box className="navContainer">
       <Box className="navBar">
         <Box className="logo">
-          <Typography>
+          <Typography variant='h5'>
             Jayanta.Developoer
           </Typography>
         </Box>
@@ -19,7 +19,7 @@ export default function NavBar() {
           <Box className="menuItem">menu3</Box>
         </Box>
         <Box className="buttonBox">
-          <Button>DOWNLOAD CV</Button>
+          <Button>Contact Me</Button>
         </Box>
       </Box>
     </Box>

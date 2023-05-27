@@ -9,19 +9,25 @@
 
 .textArya {
   width: 50%;
-  border: 1px solid green;
-  /* height: 70%; */
-  padding: 50px 0px 0px 5px;
+  /* border: 1px solid green; */
+  height: 100%;
+  padding: 50px 0px 15px 15px;
 }
 
 .AvatarPhoto {
   width: 50%;
-  border: 1px solid green;
-  height: 70%;
+  /* border: 1px solid green; */
+  height: 100%;
 }
 .buttonBox {
   display: flex;
   flex-direction: row;
+}
+.DownloadBtn {
+  padding: 0px 10px 0px 0px;
+}
+.WorkBtn {
+  padding: 0px 0px 0px 0px;
 }
 .ButtonMargin {
   margin-bottom: 50px;
