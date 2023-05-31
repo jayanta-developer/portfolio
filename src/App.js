@@ -4,6 +4,7 @@ import { Container } from "@mui/material";
 import Home from "./Pages/Home";
 import NavBar from "./components/NavBar";
 import Works from "./Pages/Works";
+import Contact from "./Pages/Contact";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <NavBar />
       <Home />
       <Works />
+      <Contact />
     </>
   );
 }

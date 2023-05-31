@@ -1,7 +1,7 @@
 import { Container, Box, Typography, Button } from '@mui/material'
 import React from 'react';
-import AvatarImage from "../Assets/Images/20221004_214441-modified-removebg-preview.png"
-import resume from "../Assets/Document/Jayanta Dey.pdf";
+import AvatarImage from "../../Assets/Images/20221004_214441-modified-removebg-preview.png"
+import resume from "../../Assets/Document/Jayanta Dey.pdf";
 import "./Home.css"
 
 export default function Home() {

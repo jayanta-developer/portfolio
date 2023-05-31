@@ -1,0 +1,45 @@
+.workContainer {
+  min-height: 100vh;
+}
+.contactBox {
+  text-align: center;
+  height: 440px;
+}
+.contactInput {
+  width: 55%;
+}
+.inputBox {
+  margin-bottom: 10px;
+}
+.messageInputField {
+  width: 55% !important;
+  height: 158px !important;
+  border-radius: 5px;
+  border: 1px solid #477a476b;
+}
+textarea:focus {
+  outline: 1.5px solid blue;
+}
+.sendMailBox {
+  border: 1px solid #08f108;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #509b4f;
+  font-weight: 600;
+  width: 122px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.sendBtnBox {
+  display: flex;
+  justify-content: center !important;
+}
+.mediaBox {
+  display: flex;
+  justify-content: center;
+}
+.mediaItems {
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+}

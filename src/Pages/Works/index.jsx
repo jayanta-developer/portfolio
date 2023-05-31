@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Box, Typography, Button } from "@mui/material";
 import { Link } from "react-router-dom";
-import project1 from "../Assets/Images/Screenshot 2023-05-27 163338.png";
-import project2 from "../Assets/Images/Screenshot 2023-05-27 172201.png";
+import project1 from "../../Assets/Images/Screenshot 2023-05-27 163338.png";
+import project2 from "../../Assets/Images/Screenshot 2023-05-27 172201.png";
 import "./Works.css";
 
 export default function Works() {
