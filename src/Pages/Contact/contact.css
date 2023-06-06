@@ -38,8 +38,20 @@ textarea:focus {
 .mediaBox {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .mediaItems {
   margin: 0px 5px 0px 5px;
   cursor: pointer;
+}
+.mediaText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mediaLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
 }

@@ -33,7 +33,7 @@ export default function NavBar() {
           <a className="NavBarItemLink" href="#"><Box className="menuItem">About Me</Box></a>
         </Box>
         <Box className="NavButtonBox">
-          <Typography className="NavBarItemLink contactMe" variant='h6'>Contact Me</Typography>
+          <Typography onClick={() => window.location.href = ("#contact")} className="NavBarItemLink contactMe" variant='h6'>Contact Me</Typography>
         </Box>
       </Box>
     </Box>

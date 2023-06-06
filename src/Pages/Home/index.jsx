@@ -27,7 +27,7 @@ export default function Home() {
               </a>
             </Box>
             <Box className="WorkBtn">
-              <Typography sx={{ padding: "3px" }} className="contactMe" variant='h6'>Contact Me </Typography>
+              <Typography onClick={() => window.location.href = ("#contact")} sx={{ padding: "3px" }} className="contactMe" variant='h6'>Contact Me </Typography>
             </Box>
           </Box>
         </Box>
