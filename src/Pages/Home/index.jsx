@@ -22,7 +22,6 @@ export default function Home() {
             </Typography>
           </Box >
           <Box className="buttonBox ">
-
             <Box className="DownloadBtn">
               <a className="DownloadCVBtn" href={resume} target="_blank">
                 <Typography variant="contained" >Download CV</Typography>
