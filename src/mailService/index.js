@@ -2,7 +2,7 @@ import axios from "axios";
 
 const MailService = (senderName, senderEmail, subject, textPart) => {
   const apiKey =
-    "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";
+    "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";
   const endpoint = "https://api.sendinblue.com/v3/smtp/email";
 
   const emailData = {

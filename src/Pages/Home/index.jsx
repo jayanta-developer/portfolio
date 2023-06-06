@@ -2,7 +2,8 @@ import { Container, Box, Typography, Button } from '@mui/material'
 import React from 'react';
 import AvatarImage from "../../Assets/Images/20221004_214441-modified-removebg-preview.png"
 import resume from "../../Assets/Document/Jayanta Dey.pdf";
-import "./Home.css"
+import "./Home.css";
+
 
 export default function Home() {
 
@@ -16,9 +17,10 @@ export default function Home() {
           </Box>
           <Box className="bioText ButtonMargin">
             <Typography variant="caption">
-              I’m a Web developer & I’m very passionate and dedicated to my work. I have <br />acquired the skills and knowledge necessary to make your project a success.
+              Hello everyone this is Jayanta here. I'm working as a full-stack Developer.
+              I have almost  <br /> 3 years of expense in this field, now working in Musquare Technologies <br /> Private Limited full-stack as a full-stack developer.
             </Typography>
-          </Box>
+          </Box >
           <Box className="buttonBox ">
 
             <Box className="DownloadBtn">
@@ -30,13 +32,13 @@ export default function Home() {
               <Typography onClick={() => window.location.href = ("#contact")} sx={{ padding: "3px" }} className="contactMe" variant='h6'>Contact Me </Typography>
             </Box>
           </Box>
-        </Box>
+        </Box >
 
         <Box className="AvatarPhoto">
           <img src={AvatarImage} alt="" />
         </Box>
-      </Box>
+      </Box >
 
-    </Container>
+    </Container >
   )
 }

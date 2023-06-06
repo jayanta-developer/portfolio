@@ -6,6 +6,8 @@ import { BsLinkedin } from 'react-icons/bs';
 import MailService from "../../mailService";
 
 export default function Contact() {
+  const [successBox, setSuccessBox] = useState(false);
+  const [errBox, setErrBox] = useState(false);
   const [mailer, setMailer] = useState({
     senderName: "",
     senderEmail: "",
@@ -21,12 +23,21 @@ export default function Contact() {
   };
 
   const handelSend = () => {
+    if (!mailer?.senderName ||
+      !mailer?.senderEmail ||
+      !mailer?.subject ||
+      !mailer?.textPart
+    ) {
+      setErrBox(true);
+      return;
+    }
     MailService(
       mailer?.senderName,
       mailer?.senderEmail,
       mailer?.subject,
       mailer?.textPart
     )
+    setSuccessBox(true)
   }
 
   const handleInstaLink = () => {
@@ -35,10 +46,19 @@ export default function Contact() {
   const handleLinkedinLink = () => {
     window.open("https://www.linkedin.com/in/jayanta-dey-45756b217", "_blank");
   }
+  const handelSuccessBox = () => {
+    setMailer({
+      senderName: "",
+      senderEmail: "",
+      subject: "",
+      textPart: ""
+    });
+    setSuccessBox(false)
+  }
 
-  useEffect(() => {
-
-  })
+  const handelErrBox = () => {
+    setErrBox(false)
+  }
 
   return (
     <Container
@@ -46,6 +66,18 @@ export default function Contact() {
       sx={{ marginTop: "80px", maxWidth: "90%" }}
       id="contact"
     >
+      <Box style={{ display: successBox ? "flex" : "none" }} className="sendMailNotificationBox">
+        <Typography style={{ textAlign: "center", color: "white" }}>Email sent successfully</Typography>
+        <Box className="sendMailBox popupBox">
+          <Typography onClick={handelSuccessBox}>OK</Typography>
+        </Box>
+      </Box>
+      <Box style={{ display: errBox ? "flex" : "none" }} className="sendMailNotificationBox">
+        <Typography style={{ textAlign: "center", color: "#f30202b8" }}>Please fill all the fields!</Typography>
+        <Box className="sendMailBox popupBox">
+          <Typography onClick={handelErrBox}>OK</Typography>
+        </Box>
+      </Box>
       <Box className="headerBox">
         <section id="Contact">
           <Typography variant="h3">Contact with me</Typography>
